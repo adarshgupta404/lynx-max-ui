@@ -28,6 +28,6 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
   },
-  "include": ["bin", "templates"],
+  "include": ["bin", "templates", "utils"],
   "exclude": ["node_modules", "dist"]
 }
