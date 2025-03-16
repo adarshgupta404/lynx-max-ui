@@ -1,4 +1,4 @@
-const lynxPreset = require("@lynx-js/tailwind-preset");
+export const tailwindcssConfig = `const lynxPreset = require("@lynx-js/tailwind-preset");
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -214,3 +214,4 @@ export default {
 
   plugins: [],
 };
+` 

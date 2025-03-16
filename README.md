@@ -1,21 +1,15 @@
-## Rspeedy project
+# max-ui
 
-This is a ReactLynx project bootstrapped with `create-rspeedy`.
-
-## Getting Started
-
-First, install the dependencies:
+To install dependencies:
 
 ```bash
-pnpm install
+bun install
 ```
 
-Then, run the development server:
+To run:
 
 ```bash
-pnpm run dev
+bun run index.ts
 ```
 
-Scan the QRCode in the terminal with your LynxExplorer App to see the result.
-
-You can start editing the page by modifying `src/App.tsx`. The page auto-updates as you edit the file.
+This project was created using `bun init` in bun v1.2.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
