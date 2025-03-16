@@ -138,7 +138,7 @@ async function handleInit() {
   } // Copy cn.ts utility
 
   const __dirname = path.dirname(import.meta.path);
-  const templateUtilsDir = path.resolve(__dirname, "../templates/utils");
+  const templateUtilsDir = path.resolve(__dirname, "../utils");
   const cnFileTarget = path.join(utilsPath, "cn.ts");
 
   if (!existsSync(cnFileTarget)) {
