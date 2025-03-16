@@ -1,4 +1,4 @@
-# max-ui
+# lynx-max-ui
 
 To install dependencies:
 
