@@ -84,7 +84,7 @@ async function addComponent(componentName: string, componentsPath: string) {
 
   const templateFile = path.resolve(
     __dirname,
-    `../templates/${componentName}.tsx`
+    `../templates/ui/${componentName}.tsx`
   );
 
   const componentTargetFile = path.join(

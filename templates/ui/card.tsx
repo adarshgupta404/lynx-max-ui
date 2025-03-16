@@ -1,6 +1,6 @@
 import { useRef, useState, type ReactNode } from "@lynx-js/react";
 import type { NodesRef, ViewProps } from "@lynx-js/types";
-import { cn } from "./utils/cn";
+import { cn } from "../../utils/cn.js";
 
 interface CardProps extends ViewProps {
   title?: string;
